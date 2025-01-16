@@ -1,9 +1,9 @@
-import {configurestore} from "@reduxjs/toolkit"
-import { useReducer } from "react"
+import {configureStore} from "@reduxjs/toolkit"
+import { userReducer } from "react"
 
-const appstore = configurestore(
+const appstore = configureStore(
     {
-        reducer: {user:useReducer}
+        reducer: {user:userReducer},
     }
 )
 export default appstore;
