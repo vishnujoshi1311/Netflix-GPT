@@ -98,6 +98,10 @@ const Login = () => {
       <p className='py-4 cursor-pointer'onClick={toggleSignInForm}>{issignInForm? "New to Netflix? sign up now" : "Already a user? Sign In now"}  
       </p>
 
+
+      <p className='py-4 cursor-pointer'onClick={toggleSignInForm}>{issignInForm? "New to Netflix? sign up now" : "Already a user? Sign In now"}  
+      </p>
+
     </form>
 
     </div>
